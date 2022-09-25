@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Increment Decrement Counter</title>
+	<style>
+		#up-arrow,#down-arrow
+		{
+			width: 100px;
+			height: 100px;
+		}
+		#totalCount
+		{
+			font-weight: 900;
+			font-size: 70px;
+		}
+		.container
+		{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+	</style>
+</head>
+<body>
+      <div class="container">
+      	<div id="Increment-count">
+      		<input type="image" id="up-arrow" src="https://cdn-icons-png.flaticon.com/512/60/60564.png"/>
+      	</div>
+      	<div id="total-count"></div>
+      	<div id="Decrement-count">
+      		<input type="image"id="down-arrow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIoTqbYRlocy9IQlcNm9RF1gxDxRnmQKsE8g&usqp=CAU"/>
+      	</div>
+      </div>
+      <script>
+          const IncrementCount = document.getElementById("Increment-count");
+          const DecrementCount = document.getElementById("Decrement-count");
+
+          const totalCount = document.getElementById("total-count");
+
+          var count = 0;
+
+          totalCount.innerHTML = count;
+
+        //function to increment count
+          const handleIncrement = ()=>{
+          	count++;
+          	totalCount.innerHTML = count;
+          }
+
+        //function to decrement count
+          const handleDecrement = () =>
+          {
+          	count--;
+            totalCount.innerHTML = count;	
+          }
+
+          //add click event to buttons
+          IncrementCount.addEventListener("click",handleIncrement);
+          DecrementCount.addEventListener("click",handleDecrement);
+      </script>
+</body>
+</html>

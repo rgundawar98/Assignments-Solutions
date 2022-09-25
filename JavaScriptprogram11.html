@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<p>When you click on below button then it displays date and time</p>
+	<input type="button" value="Show Date & Time" onclick="show_now();">
+	<div id="display">
+	</div>
+	 
+	<script>
+		function show_now()
+		{
+			var my_time = new Date();
+			document.getElementById("display").innerHTML = my_time;
+		}
+	</script>
+
+</body>
+</html>
