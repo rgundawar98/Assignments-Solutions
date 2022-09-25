@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+        }
+        table:hover 
+        {
+            background-color: aqua;
+        }
+        p.First
+        {
+            visibility: hidden;
+        }
+        p.Second
+        {
+            color:cornflowerblue;
+            visibility:visible;
+        }
+        p.Third
+        {
+            visibility:collapse;
+        }
+        p.One
+        {
+            display: none;
+        }
+        p.Two
+        {
+            color:cornflowerblue;
+            display:inline;
+        }
+        p.Three
+        {
+            color:cornflowerblue;
+            display:block;
+        }
+        p.Four
+        {
+            color:cornflowerblue;
+            display:contents;
+        }
+        p.Five
+        {
+            color:cornflowerblue;
+            display:list-item;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Table</h2>
+    <table style="width: 100%">
+        <tr>
+            <th>Player Name</th>
+            <th>Sports</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>M S Dhoni</td>
+            <td>Cricket</td>
+            <td>101</td>
+        </tr>
+        <tr>
+            <td>Virat Kohli</td>
+            <td>Cricket</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Rohit Sharma</td>
+            <td>Cricket</td>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <p class="First">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum laudantium non deleniti quos. Libero vero dolor,
+        ad deleniti voluptatem, dignissimos eligendi impedit consequuntur modi nam officiis odit eum at. Omnis,
+        repellendus assumenda?</p>
+    <p class="Second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae facere cumque consequuntur nihil, ipsa commodi
+        alias inventore esse! Nulla dicta, fuga, aliquam, esse laudantium aspernatur distinctio rem quod incidunt eos
+        maiores explicabo.</p>
+    <p class="Third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dolores vitae! Vitae ducimus atque dolorum
+        commodi, voluptates, eius aut assumenda culpa corporis provident facere, deleniti obcaecati quidem. Ullam
+        blanditiis veniam cumque quibusdam?</p>
+
+    <p class="One">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dolorum aliquam, placeat inventore, incidunt officia voluptate autem quas nostrum minima atque officiis totam dolore eius iste quam sequi! Ut dignissimos obcaecati repellendus quasi deserunt!</p>
+    <p class="Two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem exercitationem non cumque enim laboriosam deleniti aut optio doloribus, ea odit magni neque quos omnis natus sequi eligendi culpa temporibus nihil velit nemo explicabo ipsa.</p>
+    <p class="Three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil earum dicta veritatis, accusantium eum sapiente aliquam et quos. Alias quam illum placeat fugiat. Quam nostrum debitis eos? Ipsa non sint distinctio harum, velit culpa?</p>
+    <p class="Four">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, laboriosam? Distinctio perferendis blanditiis consequatur provident at laborum nihil, iusto dolores numquam repellat accusamus, saepe dolorum autem? Perspiciatis unde at voluptatem?</p>
+    <p class="Five">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quidem, minima corporis in at deserunt, praesentium, fugiat cupiditate mollitia iusto culpa numquam ipsa. Quo rerum non omnis nemo voluptate dolorem!</p>
+</body>
+
+</html>

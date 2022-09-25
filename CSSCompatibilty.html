@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table Layout</title>
+	<style>
+          .box1
+          {
+          	display: block;
+          	padding: 10px;
+          	margin-bottom: 30px;
+          	text-align: justify;
+          }
+          table,th,td
+          {
+            width:100%;
+          	border: 1px solid black;
+          	table-layout: fixed;
+          }
+
+          .box2
+          {
+          	display: block;
+          	padding: 10px;
+          	margin-bottom: 30px;
+          	text-align: justify;
+          }
+
+          table,th,td
+          {
+             width:100%;
+             table-layout: none;
+             border: 1px solid lightslategray;
+          } 
+
+	</style>
+</head>
+<body>
+       <div class="box1">
+       	<table >
+       		<tr>
+       			<th>Player Name</th>
+       			<th>Sports</th>
+       			<th>Score</th>
+       		</tr>
+       		<tr>
+       		<td> Ms Dhoni </td>
+       		<td> Cricket </td>
+       		<td> 101 </td>
+       	    </tr>
+       	    <tr>
+       		<td> virat Kohli </td>
+       		<td>  Cricket </td>
+       		<td>  100 </td>
+       	    </tr>
+       	    <tr>
+       		<td> Rohit Sharma </td>
+       		<td>  Cricket </td>
+       		<td> 90 </td>
+       	    </tr>
+       	</table>
+       </div>
+
+        
+        <div class="box2">
+       	<table >
+       		<tr>
+       			<th>Player Name</th>
+       			<th>Sports</th>
+       			<th>Matches Played</th>
+       		</tr>
+       		<tr>
+       		<td> Loinel Messi</td>
+       		<td> Football </td>
+       		<td> 101 </td>
+       	    </tr>
+       	    <tr>
+       		<td> Cristiano Ronaldo  </td>
+       		<td> Football </td>
+       		<td> 100 </td>
+       	    </tr>
+       	    <tr>
+       		<td> Neymar </td>
+       		<td> Football </td>
+       		<td> 90 </td>
+       	    </tr>
+       	</table>
+       </div>
+</body>
+</html>

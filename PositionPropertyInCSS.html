@@ -1,0 +1,75 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CSS Position of Elements</title>
+		<style>
+			p
+			{
+             color: cornflowerblue;
+             padding: 12px;
+			}
+			div.Static
+			{
+				
+				position: static;
+				border: 3px solid green;
+			}
+
+            div.Relative
+			{
+				left: 30px;
+				position: relative;
+				border: 3px solid blueviolet;
+			}
+
+			div.Fixed
+			{
+				position: fixed;
+				bottom: 0;
+				right: 0;
+				width: 300px;
+				border: 3px dashed brown;
+			}
+
+			div.Absolute
+			{
+				position: absolute;
+				top: 250px;
+				right: 0;
+				width: 200px;
+				height: 100px;
+				border: 3px solid cyan;
+			}
+
+			div.Sticky
+			{
+				top: 150px;
+				position: sticky;
+				padding: 10px;
+				background-color: lightgreen;
+				border: 3px solid blueviolet;
+
+			}
+
+		</style>
+	</head>
+	<body>
+		<p>An element with position:static ,relative ,fixed ,absolute ,sticky.Is not positioned in any special way. It is always positioned according to the normal flow of page</p>
+	    <div class="Static">This div element has static position: Static;</div>
+
+	    <div class="Relative">This div element has static position: Relative;</div>
+
+	    <div class="Fixed">This div element has static position: Fixed;</div>
+
+	    <div class="Absolute">This div element has static position: Absolute;</div>
+
+	    <div class="Sticky">I am Sticky!</div>
+	    <div style="padding-bottom: 2000px">
+	    	<p>In this example the sticky element sticks to the top of the page (top:400) when you reach its scroll position</p>
+	    	<p>Scroll back up to remove Stickyness</p>
+	    </div>
+
+	</body>
+	</html>

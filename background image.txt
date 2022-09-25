@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        html
+        {
+            background-color:yellowgreen;
+        }
+        .sds
+        {
+            display: flex;
+        }
+        img.First
+        {
+            height: 60vh;
+        }
+        img.Second
+        {
+            height: 60vh;
+        }
+        img.Third
+        {
+            height: 60vh;
+        }
+        img.Four
+        {
+            height: 20vh;
+            width: 20vw;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Multiple Background Images</h1>
+    <div class="sds">
+    <img src="https://www.bhaktiphotos.com/wp-content/uploads/2020/12/First-God-Ganesh-Ji-Maharaj-hd-Wallpaper.jpg" class="First">
+    <img src="https://1.bp.blogspot.com/-QZbCOUfusHo/YMw3ydBoF2I/AAAAAAAAAK8/1Q5nGvRc4NsjYmXhoHO990XrHLBYo3WeACLcBGAsYHQ/w640-h640/lord-ganesh-images-for-desktop.jpg" class="Second">
+    <img src="https://images.unsplash.com/photo-1567591414240-e9c1e59f3e06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FucGF0aXxlbnwwfHwwfHw%3D&w=1000&q=80" class="Third">
+    <img src="https://media.istockphoto.com/photos/ganesha-picture-id672350552?b=1&k=20&m=672350552&s=170667a&w=0&h=1RwCGFIo15PV1qavy5bu6rPh7wn2B2oPIrKAhzIk6bY=" class="Fourth">    
+</div>
+</body>
+</html>
+

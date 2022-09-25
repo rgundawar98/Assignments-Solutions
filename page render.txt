@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html
+            {
+                scroll-behavior: smooth;
+            }
+
+            #Section1
+            {
+                height: 50vh;
+                background-color: pink;
+            }
+
+            #Section2
+            {
+                height: 50vh;
+                background-color:yellow;
+            }
+           
+        </style>
+    </head>
+    <body>
+       <h1>Smooth Scroll</h1>
+        <div class="main" id="Section1">
+            <h2>Section 1</h2>
+            <p>Click on the link to see the "Smooth Scrolling" effect</p>
+            <a href="#Section 2">Click me to Scroll Smoothly to Section 2 Below</a>
+        </div>
+
+        <div class="main" id="Section2">
+            <h2>Section 2</h2>
+            <a href="#Section 1">Click me to Scroll smoothly to Section 1 above</a>
+        </div>
+    </body>
+</html>

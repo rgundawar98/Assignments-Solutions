@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div
+            {
+                background-color: lightslategray;
+                width: 100vh;
+                border: 15px solid yellow;
+                padding: 50px;
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Demonstration of Margin and Padding</h2>
+        <div>
+            This is the context of box. We added margin of 20 px  and 50 px of padding with yellow border. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque accusamus reiciendis soluta corrupti, quos assumenda doloremque molestias odit vel temporibus eius magni enim repellat dignissimos quod culpa laboriosam quaerat nobis. Error, esse!</div>  
+        </div>
+    </body>
+</html>

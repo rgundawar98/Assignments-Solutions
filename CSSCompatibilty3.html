@@ -1,0 +1,79 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.grid-container
+		{
+			display: grid;
+			grid-template-columns: auto auto auto;
+			background-color: blue;
+			padding: 10px;
+		}
+		.grid-item
+		{
+			background-color: lightblue;
+	        border: 1px solid blue;		
+	        padding: 20px;
+	        font-size: 30px;
+	        text-align: center;
+		}
+
+		.grid-container1
+		{
+          display: grid;
+          column-gap: 50px;
+          grid-template-columns: auto auto auto;
+          background-color: red;
+          padding: 10px;
+		}
+
+	    .grid-item1
+		{
+			background-color: hotpink;
+	        border: 1px solid yellow;		
+	        padding: 20px;
+	        font-size: 30px;
+	        text-align: center;
+		}
+	
+	</style>
+</head>
+</head>
+<body>
+      <h1>Grid Elements</h1>
+
+      <p> A grid Layout must have a parent element with the <em>display</em> property set to <em>grid
+      </em> or <em>inline-grid</em> </p>
+    <div class="grid-container">
+      	<div class="grid-item">1</div>
+      	<div class="grid-item">2</div>
+      	<div class="grid-item">3</div>
+      	<div class="grid-item">4</div>
+      	<div class="grid-item">5</div>
+      	<div class="grid-item">6</div>
+      	<div class="grid-item">7</div>
+      	<div class="grid-item">8</div>
+      	<div class="grid-item">9</div>
+    </div>
+
+     <h1>Column-gap Property</h1>
+
+      <p> Use the <em>column-gap</em>property to adjust the space between the columns:</p>
+    <div class="grid-container1">
+      	<div class="grid-item1">I</div>
+      	<div class="grid-item1">II</div>
+      	<div class="grid-item1">III</div>
+      	<div class="grid-item1">IV</div>
+      	<div class="grid-item1">V</div>
+      	<div class="grid-item1">VI</div>
+      	<div class="grid-item1">VII</div>
+      	<div class="grid-item1">VIII</div>
+      	<div class="grid-item1">IX</div>
+    </div>
+
+
+</body>
+</html>
+

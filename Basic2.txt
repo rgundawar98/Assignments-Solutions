@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body
+        {
+            background-color: lightblue;
+            height: 100%;
+            width: 100%;
+        }
+       p.Dotted
+       {
+        border-style: dotted;
+       }
+       
+       p.Dashed
+       {
+        border-style:dashed;
+       }
+
+       
+       p.Solid
+       {
+        border-style:solid;
+       }
+       
+       p.Double
+       {
+        border-style:double;
+       }
+       
+    </style>
+</head>
+
+<body>
+   
+    <h2>The border style property specifies  what kind of border to display</h2>
+
+    <p class="Dotted"> A dotted border</p>
+    <p class="Dashed"> A dashed border</p>
+    <p class="Solid"> A solid border</p>
+    <p class="Double"> A double border</p>
+   <!-- <img src="https://ghantee.com/wp-content/uploads/2021/07/lord-ganesh-hd-mobile-wallpaper.jpg" alt="Ganesha Wallpaper"> -->
+</body>
+
+</html>
